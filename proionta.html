@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head><h2 id="q"><a href="ergasia1.html" class="mainpage">T Λ Ζ Ξ R</a></h2>
+<script src="ergasia1.js"></script>
+<link href="ergasia1.css" type="text/css" rel="stylesheet">
+<title>Τ Λ Ζ Ξ R</title>
+<div class="main">
+		
+		<a href="ergasia1.html" class="acc2">T Λ Ζ Ξ R</a>
+		
+</div>
+</head>
+<body>
+<br><br>
+
+<div class="wpage1">
+	
+	<h1>Καλώς ορίσατε στη σελίδα επιλογής προιόντων</h1><br>
+	
+	<p class="tx">Επιλέξτε μια κατηγορία απο τα προιόντα μας για να δείτε τι προιόντα διαθέτουμε για την κάθε μία.</p><br><br>
+	
+</div> 
+
+
+		
+<div class="p">
+
+	<div class="p1">
+			
+				
+			<h4 class="tx">Mice</h4>
+			<div class="dropup">
+				<div class="popup" onclick="myFunpop()"><input type="image" name="gender" value="mouse"  class="mk" src="image/m0.jpg" onmouseover="myFun1()" onclick="myFun3()"/>
+				<span class="popuptext" id="myPopup">A Simple Popup!</span>
+				</div>
+				
+				<div id="myDropup" class="dropup-content">
+					<p class="tx">Διαθέτουμε 6 διαφορετικά Mice ασύρματα και ενσύρματα για όλες τις χρήσεις που χρειάζεστε.</p>
+				</div>
+			</div>
+	</div>
+
+	<div class="p2">
+		
+			<h4 class="tx">Keyboards</h4>
+			<div class="dropup2">
+				<input type="image" name="gender" value="keyboard"  class="mk" src="image/k0.jpg" onmouseover="myFun2()" onclick="myFun4()"/>
+				<div id="myDropup2" class="dropup2-content">
+					<p class="tx">Διαθέτουμε 6 διαφορετικά Keyboards ασύρματα και ενσύρματα για όλες τις χρήσεις που χρειάζεστε.</p>
+				</div>
+			</div>
+		<br>
+	</div>
+
+</div>
+<br>
+<div class="wpage1">
+
+	<h4>Διαθέτουμε 6 διαφορετικά Mice και 6 διαφορετικά Keyboards</h4>
+	
+</div>
+
+
+<script>
+
+function myFunpop() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
+ function myFun1() {
+  document.getElementById("myDropup").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onmouseover = function(event) {
+  if (!event.target.matches('.mk')) {
+    var dropdowns = document.getElementsByClassName("dropup-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+ }
+}
+
+ function myFun2() {
+  document.getElementById("myDropup2").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onmouseover = function(event) {
+  if (!event.target.matches('.mk')) {
+    var dropdowns = document.getElementsByClassName("dropup2-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+ }
+}
+
+function myFun3() {
+  location.href = "mouse.html";
+}
+
+function myFun4() {
+  location.href = "keyboard.html";
+}
+</script>
+
+</body>
+</html>

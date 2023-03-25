@@ -1,0 +1,493 @@
+
+#q {
+font-family: arial;
+text-align: center;
+color: green;
+background-color: rgba(30, 30, 30, 1);
+}
+
+.mainpage {
+font-family: arial;
+font-weight: 1;
+text-decoration: none;
+color: rgba(0, 255, 34, 1);
+
+}
+
+.icon{
+	
+	width:auto;
+	height:50px;
+	
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/flower2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.main{
+	
+	text-align: center;
+}
+
+.acc1 {
+
+font-family: arial;
+text-decoration: none !important;
+padding: 7px 20px;
+float: right;
+margin-top: 0px;
+color: rgba(0, 255, 34, 1);
+background: rgba(30, 30, 30, 1);
+font-weight: 150;
+}
+
+.acc1:hover{
+	background-color: #111;
+	color: gray !important;
+}
+
+.acc2 {
+
+font-family: arial;
+text-decoration: none !important;
+padding: 7px 20px;
+float: left;
+margin-top: 0px;
+color: rgba(0, 255, 34, 1);
+background: rgba(30, 30, 30, 1);
+font-weight: 150;
+}
+
+.acc2:hover{
+	background-color: #111;
+	color: gray !important;
+}
+
+
+
+
+.phone {
+  display: none;
+  position: absolute;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-family: arial;
+}
+
+.phone a {
+  color: black;
+  padding: 7px 20px;
+  color: white;
+  background-color: #2f2f2f;
+  text-decoration: none;
+  display: block;
+}
+
+.phone a:hover {
+	
+background-color: rgba(30, 30, 30, 1);
+
+}
+
+.dropdown:hover .phone {
+	
+display: block;
+	
+}
+
+
+.tx {
+
+color: white;
+font-family: arial;
+}
+
+
+.wpage3{
+	
+width: 520px;
+margin: 0 auto;
+background-color: rgba(30, 30, 30, 1);
+text-align: center;
+color: black;
+font-family: arial;
+	
+}
+
+.wpage2 {
+
+width: 520px;
+padding:50px;
+margin: 0 auto;
+background-color: rgba(30, 30, 30, 1);
+text-align: center;
+color: white;
+font-family: arial;
+}
+
+.wpage1 {
+
+text-align: center;
+color: white;
+font-family: arial;
+}
+
+.theme{
+	text-align: center;
+}
+
+
+.fields {
+	font-size: 18px;
+}
+
+.timage {
+	width: 900px;
+    height: auto;
+}
+
+.mimage {
+
+	width: 500px;
+    height: auto;
+}
+
+.p {
+	display: flex;
+	margin-top: 30px;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.p1 {
+	
+	margin-left: 20%;
+	
+}
+
+
+.p2 {
+	
+
+	margin-left: 5%;
+	margin-right: 20%;
+	
+}
+
+
+	
+.mk {
+	width: 100%;
+}
+
+.mk:hover {
+	box-shadow: 0px 32px 512px 10px rgba(0,199,0,0.9);
+	
+}
+
+.mk1 {
+	width: 80%;
+	height: auto;
+	
+}
+
+.row1 {
+	margin-left: 0%;
+	
+}
+
+.iso {
+	display: flex;
+	
+}
+
+.iso1 {
+	
+	width: 30%;
+padding:50px 0px;
+margin: 0 auto;
+background-color: rgba(30, 30, 30, 1);
+text-align: center;
+color: white;
+font-family: arial;
+	
+}
+
+.iso2{
+	width: 30%;
+padding:50px 0px;
+margin: 0 auto;
+background-color: rgba(30, 30, 30, 1);
+text-align: center;
+color: white;
+font-family: arial;
+	margin-left:5%;
+}
+
+.tp {
+	
+	text-align: center;
+}
+
+.lol {
+	
+	margin-top: 70px;
+	color: white;
+	font-family: arial;
+	
+}
+
+label {
+	margin-top: 70px;
+	color: white;
+	font-family: arial;
+	
+	
+}
+
+.border{
+	
+	text-shadow: 4px 4px 10px purple;
+	color: white;
+	font-family: arial;
+
+}
+
+.rs {
+	
+	text-align: center;
+}
+
+.but{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 30px;
+	cursor: pointer;
+}
+
+.but:hover {
+	
+	background-color:#4CAF50;
+}
+
+input[type=text], select, textarea{
+  width: 40%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=password], select, textarea{
+  width: 40%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#f {
+	width: 10%;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+	
+}
+
+/*when i use js*/
+
+#desc {
+	margin-left: 20%;
+	display: none;
+	width: 26.25%;
+  padding: 48px 0;
+  text-align: center;
+  background-color: rgba(30, 30, 30, 1);
+}
+
+.acc3 {
+
+float:right;
+background-color: green;
+	border: none;
+	color: white;
+	padding: 7px 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.acc3:hover{
+	background-color:#4CAF50;
+}
+
+#cart {
+	width:5%;
+	margin-right:5%;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+	
+  display: none;
+  position: absolute;
+  background-color: rgba(30, 30, 30, 1);
+  width: 100;
+  padding: 48px 0;
+  text-align: center;
+  z-index: 1;
+}
+.dropup2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup2-content {
+	
+  display: none;
+  position: absolute;
+  background-color: rgba(30, 30, 30, 1);
+  width: 100;
+  padding: 48px 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.show {display: block;}
+
+#b2 { display: none;}
+#b3 { display: none;}
+#hp { display: none;}
+#ant { display: none;}
+
+.but1{
+	background-color: #0066FF;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 30px;
+	cursor: pointer;
+}
+
+.but1:hover {
+	
+	background-color:#00CCFF;
+}
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.wpage4 {
+
+width: 50%;
+padding:50px;
+margin: 0 auto;
+background-color: rgba(30, 30, 30, 1);
+text-align: center;
+color: white;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+  background-color: rgba(30, 30, 30, 1);
+}
+
+.butRem {
+	
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+.imgItm {
+	
+	width: 100px;
+}
+
+#item { display: none;}
